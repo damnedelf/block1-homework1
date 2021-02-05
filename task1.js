@@ -19,18 +19,19 @@ function stringTaskHandler(str) {
   }
   return newString;
 }
+
 console.assert(
-  stringTaskHandler(`aaa`) === `a3`,
+  stringTaskHandler('aaa') === 'a3',
   "Actual result: %s",
-  stringTaskHandler(`aaa`)
+  stringTaskHandler('aaa')
 );
 console.assert(
-  stringTaskHandler(`aaabbdcccccf`) === `a3b2d1c5f1`,
+  stringTaskHandler('aaabbdcccccf') === 'a3b2d1c5f1',
   "Actual result: %s",
-  stringTaskHandler(`aaabbdcccccf`)
+  stringTaskHandler('aaabbdcccccf')
 );
 console.assert(
-  stringTaskHandler(`aaabbaa`) === `a3b2a2`,
+  stringTaskHandler('aaabbaa') === 'a3b2a2',
   "Actual result: %s",
-  stringTaskHandler(`aaabbaa`)
+  stringTaskHandler('aaabbaa')
 );
